@@ -1,0 +1,48 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-options {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-options p {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    color: #ffffffcc;
+    background-color: rgb(18, 14, 231);
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-options p:hover {
+    background-color: green;
+    color: black;
+}
+body { 
+    background: whitesmoke;
+ }
+ 

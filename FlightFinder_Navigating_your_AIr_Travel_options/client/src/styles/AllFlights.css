@@ -1,0 +1,49 @@
+.all-flights-wrapper {
+  margin-top: 13vh;
+  padding: 0 5%;
+  width: 100%;
+}
+
+.all-flights-title {
+  color: #0e28d2;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 4vh;
+}
+
+.flights-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.flight-card {
+  background-color: #f4f7f9;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.flight-card:hover {
+  box-shadow: 0 8px 30px rgba(69, 63, 153, 0.907);
+}
+
+.flight-info-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.flight-info {
+  color: #054092;
+  font-size: 0.95rem;
+  margin: 5px 0;
+  flex: 0 0 48%;
+}
+
+.flight-info strong {
+  font-weight: 600;
+  color: #5d093e;
+}
